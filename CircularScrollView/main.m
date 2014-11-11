@@ -2,7 +2,7 @@
 //  main.m
 //  CircularScrollView
 //
-//  Created by neo on 11.11.14.
+//  Created by NSSimpleApps on 11.11.14.
 //  Copyright (c) 2014 NSSimpleApps. All rights reserved.
 //
 
