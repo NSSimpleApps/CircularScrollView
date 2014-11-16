@@ -7,7 +7,6 @@
         <!--Collection View Controller-->
         <scene sceneID="Utr-fG-dQe">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cAe-qj-f9e" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <collectionViewController id="EJm-K3-FOE" customClass="PSCollectionViewController" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceHorizontal="YES" showsVerticalScrollIndicator="NO" dataMode="prototypes" id="64o-Fk-6t2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -49,6 +48,7 @@
                     </collectionView>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cAe-qj-f9e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="210.5" y="343.5"/>
         </scene>
