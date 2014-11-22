@@ -18,6 +18,7 @@
 		B51655631A127A0E0022C3B8 /* cat1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B51655601A127A0E0022C3B8 /* cat1.jpg */; };
 		B51655661A127A360022C3B8 /* PSCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B51655651A127A360022C3B8 /* PSCollectionViewController.m */; };
 		B51655691A127A3F0022C3B8 /* ImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B51655681A127A3F0022C3B8 /* ImageViewCell.m */; };
+		B51990CF1A20B5430044A338 /* CircularScrollView.gif in Resources */ = {isa = PBXBuildFile; fileRef = B51990CE1A20B5430044A338 /* CircularScrollView.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B51655651A127A360022C3B8 /* PSCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSCollectionViewController.m; sourceTree = "<group>"; };
 		B51655671A127A3F0022C3B8 /* ImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewCell.h; sourceTree = "<group>"; };
 		B51655681A127A3F0022C3B8 /* ImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewCell.m; sourceTree = "<group>"; };
+		B51990CE1A20B5430044A338 /* CircularScrollView.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = CircularScrollView.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		B51655371A1275540022C3B8 /* CircularScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				B51990CE1A20B5430044A338 /* CircularScrollView.gif */,
 				B516553C1A1275540022C3B8 /* AppDelegate.h */,
 				B516553D1A1275540022C3B8 /* AppDelegate.m */,
 				B51655641A127A360022C3B8 /* PSCollectionViewController.h */,
@@ -218,6 +221,7 @@
 				B51655491A1275540022C3B8 /* LaunchScreen.xib in Resources */,
 				B51655611A127A0E0022C3B8 /* cat3.jpg in Resources */,
 				B51655631A127A0E0022C3B8 /* cat1.jpg in Resources */,
+				B51990CF1A20B5430044A338 /* CircularScrollView.gif in Resources */,
 				B51655461A1275540022C3B8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +434,7 @@
 				B516555A1A1275540022C3B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B516555B1A1275540022C3B8 /* Build configuration list for PBXNativeTarget "CircularScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +443,7 @@
 				B516555D1A1275540022C3B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
