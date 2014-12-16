@@ -6,18 +6,18 @@
 //  Copyright (c) 2014 NSSimpleApps. All rights reserved.
 //
 
-#import "PSCollectionViewController.h"
+#import "CollectionViewController.h"
 #import "ImageViewCell.h"
 
 
-@interface PSCollectionViewController () <UICollectionViewDelegateFlowLayout>
+@interface CollectionViewController () <UICollectionViewDelegateFlowLayout>
 
 @property (strong, nonatomic) NSArray* arrayOfImages;
 @property (assign, nonatomic) CGSize cellSize;
 
 @end
 
-@implementation PSCollectionViewController
+@implementation CollectionViewController
 
 static NSString * const reuseIdentifier = @"ImageViewCell";
 
@@ -29,7 +29,7 @@ static NSString * const reuseIdentifier = @"ImageViewCell";
     
     CGRect screenSize = [[UIScreen mainScreen] bounds];
     
-    self.cellSize = CGSizeMake(screenSize.size.width, screenSize.size.height - 50.f);
+    self.cellSize = CGSizeMake(screenSize.size.width, 3*screenSize.size.height/4);
 }
 
 - (void)didReceiveMemoryWarning {

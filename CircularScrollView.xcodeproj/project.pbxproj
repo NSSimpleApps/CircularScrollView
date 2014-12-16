@@ -16,7 +16,7 @@
 		B51655611A127A0E0022C3B8 /* cat3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B516555E1A127A0E0022C3B8 /* cat3.jpg */; };
 		B51655621A127A0E0022C3B8 /* cat2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B516555F1A127A0E0022C3B8 /* cat2.jpg */; };
 		B51655631A127A0E0022C3B8 /* cat1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B51655601A127A0E0022C3B8 /* cat1.jpg */; };
-		B51655661A127A360022C3B8 /* PSCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B51655651A127A360022C3B8 /* PSCollectionViewController.m */; };
+		B51655661A127A360022C3B8 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B51655651A127A360022C3B8 /* CollectionViewController.m */; };
 		B51655691A127A3F0022C3B8 /* ImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B51655681A127A3F0022C3B8 /* ImageViewCell.m */; };
 		B51990CF1A20B5430044A338 /* CircularScrollView.gif in Resources */ = {isa = PBXBuildFile; fileRef = B51990CE1A20B5430044A338 /* CircularScrollView.gif */; };
 /* End PBXBuildFile section */
@@ -46,8 +46,8 @@
 		B516555E1A127A0E0022C3B8 /* cat3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat3.jpg; sourceTree = "<group>"; };
 		B516555F1A127A0E0022C3B8 /* cat2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat2.jpg; sourceTree = "<group>"; };
 		B51655601A127A0E0022C3B8 /* cat1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat1.jpg; sourceTree = "<group>"; };
-		B51655641A127A360022C3B8 /* PSCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSCollectionViewController.h; sourceTree = "<group>"; };
-		B51655651A127A360022C3B8 /* PSCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSCollectionViewController.m; sourceTree = "<group>"; };
+		B51655641A127A360022C3B8 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		B51655651A127A360022C3B8 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
 		B51655671A127A3F0022C3B8 /* ImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewCell.h; sourceTree = "<group>"; };
 		B51655681A127A3F0022C3B8 /* ImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewCell.m; sourceTree = "<group>"; };
 		B51990CE1A20B5430044A338 /* CircularScrollView.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = CircularScrollView.gif; sourceTree = "<group>"; };
@@ -95,8 +95,8 @@
 				B51990CE1A20B5430044A338 /* CircularScrollView.gif */,
 				B516553C1A1275540022C3B8 /* AppDelegate.h */,
 				B516553D1A1275540022C3B8 /* AppDelegate.m */,
-				B51655641A127A360022C3B8 /* PSCollectionViewController.h */,
-				B51655651A127A360022C3B8 /* PSCollectionViewController.m */,
+				B51655641A127A360022C3B8 /* CollectionViewController.h */,
+				B51655651A127A360022C3B8 /* CollectionViewController.m */,
 				B51655671A127A3F0022C3B8 /* ImageViewCell.h */,
 				B51655681A127A3F0022C3B8 /* ImageViewCell.m */,
 				B51655421A1275540022C3B8 /* Main.storyboard */,
@@ -240,7 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B51655661A127A360022C3B8 /* PSCollectionViewController.m in Sources */,
+				B51655661A127A360022C3B8 /* CollectionViewController.m in Sources */,
 				B51655691A127A3F0022C3B8 /* ImageViewCell.m in Sources */,
 				B516553E1A1275540022C3B8 /* AppDelegate.m in Sources */,
 				B516553B1A1275540022C3B8 /* main.m in Sources */,
@@ -368,6 +368,7 @@
 				INFOPLIST_FILE = CircularScrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -378,6 +379,7 @@
 				INFOPLIST_FILE = CircularScrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
