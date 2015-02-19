@@ -94,7 +94,6 @@ static NSString * const reuseIdentifier = @"ImageViewCell";
     *targetContentOffset = scrollView.contentOffset;
 }
 
-
 - (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate {
 
     CGFloat currentOffset = scrollView.contentOffset.x;
@@ -114,6 +113,5 @@ static NSString * const reuseIdentifier = @"ImageViewCell";
                                 atScrollPosition:UICollectionViewScrollPositionNone
                                         animated:YES];
 }
-
 
 @end
