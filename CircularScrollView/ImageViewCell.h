@@ -12,6 +12,4 @@
 
 - (void)setImage:(UIImage*)image;
 
-- (void)rotateWithOffset:(CGFloat)offset radius:(CGFloat)radius;
-
 @end

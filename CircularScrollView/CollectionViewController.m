@@ -72,8 +72,14 @@ static NSString * const reuseIdentifier = @"ImageViewCell";
     
     for (NSIndexPath *indexPath in [self.collectionView indexPathsForVisibleItems]) {
         
-        ImageViewCell* cell = (ImageViewCell*)[self.collectionView cellForItemAtIndexPath:indexPath];
-        [cell rotateWithOffset:(currentOffset - self.cellSize.width*indexPath.section) radius:100.f];
+        UICollectionViewCell* cell = [self.collectionView cellForItemAtIndexPath:indexPath];
+        
+        CGFloat angle = atan2f(currentOffset - self.cellSize.width*indexPath.section, 100.f);
+        
+        CATransform3D transform = CATransform3DIdentity;
+        transform.m34 = 1.0 / 500.0;
+        transform = CATransform3DRotate(transform, angle, 0.0f, 1.0f, 0.0f);
+        cell.layer.transform = transform;
     }
 }
 
