@@ -12,7 +12,7 @@
 
 @interface CollectionViewController () <UICollectionViewDelegateFlowLayout>
 
-@property (strong, nonatomic) NSArray* arrayOfImages;
+@property (strong, nonatomic) NSArray<UIImage *> *arrayOfImages;
 @property (assign, nonatomic) CGSize cellSize;
 
 @end
@@ -52,7 +52,7 @@ static NSString * const reuseIdentifier = @"ImageViewCell";
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     
     ImageViewCell *cell = (ImageViewCell*)[collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
-    [cell setImage:[self.arrayOfImages objectAtIndex:indexPath.section]];
+    [cell setImage:self.arrayOfImages[indexPath.section]];
     
     return cell;
 }
@@ -100,7 +100,8 @@ static NSString * const reuseIdentifier = @"ImageViewCell";
     *targetContentOffset = scrollView.contentOffset;
 }
 
-- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate {
+- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView
+                  willDecelerate:(BOOL)decelerate {
 
     CGFloat currentOffset = scrollView.contentOffset.x;
     

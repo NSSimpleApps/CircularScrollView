@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="6f7-kr-Mtv">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="6f7-kr-Mtv">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Collection View Controller-->
@@ -33,10 +35,10 @@
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                                 <constraints>
-                                    <constraint firstAttribute="centerY" secondItem="ov5-J1-UKE" secondAttribute="centerY" id="JAL-DK-Upw"/>
-                                    <constraint firstItem="ov5-J1-UKE" firstAttribute="top" secondItem="Sid-o0-fvh" secondAttribute="top" id="Vdg-dv-39A"/>
-                                    <constraint firstAttribute="centerX" secondItem="ov5-J1-UKE" secondAttribute="centerX" id="Zyp-pC-NPy"/>
-                                    <constraint firstItem="ov5-J1-UKE" firstAttribute="leading" secondItem="Sid-o0-fvh" secondAttribute="leading" id="fb8-yS-iiw"/>
+                                    <constraint firstItem="ov5-J1-UKE" firstAttribute="leading" secondItem="Sid-o0-fvh" secondAttribute="leadingMargin" constant="-8" id="FUq-l3-c8S"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="ov5-J1-UKE" secondAttribute="trailing" constant="-8" id="XTa-Cg-ciV"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="ov5-J1-UKE" secondAttribute="bottom" constant="-8" id="e0x-vG-gRQ"/>
+                                    <constraint firstItem="ov5-J1-UKE" firstAttribute="top" secondItem="Sid-o0-fvh" secondAttribute="topMargin" constant="-8" id="fiX-Dh-Lcl"/>
                                 </constraints>
                                 <connections>
                                     <outlet property="imageView" destination="ov5-J1-UKE" id="ml8-du-LBF"/>
@@ -51,7 +53,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gDs-fB-UXg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="629" y="391"/>
+            <point key="canvasLocation" x="635" y="397"/>
         </scene>
     </scenes>
 </document>

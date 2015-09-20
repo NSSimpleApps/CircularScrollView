@@ -11,7 +11,6 @@
 		B516553E1A1275540022C3B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B516553D1A1275540022C3B8 /* AppDelegate.m */; };
 		B51655461A1275540022C3B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B51655451A1275540022C3B8 /* Images.xcassets */; };
 		B51655491A1275540022C3B8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B51655471A1275540022C3B8 /* LaunchScreen.xib */; };
-		B51655551A1275540022C3B8 /* CircularScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B51655541A1275540022C3B8 /* CircularScrollViewTests.m */; };
 		B51655611A127A0E0022C3B8 /* cat3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B516555E1A127A0E0022C3B8 /* cat3.jpg */; };
 		B51655621A127A0E0022C3B8 /* cat2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B516555F1A127A0E0022C3B8 /* cat2.jpg */; };
 		B51655631A127A0E0022C3B8 /* cat1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B51655601A127A0E0022C3B8 /* cat1.jpg */; };
@@ -21,16 +20,6 @@
 		B5B522931A9636DC00701AD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B522921A9636DC00701AD1 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B516554F1A1275540022C3B8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B516552D1A1275540022C3B8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B51655341A1275540022C3B8;
-			remoteInfo = CircularScrollView;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		B51655351A1275540022C3B8 /* CircularScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircularScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B51655391A1275540022C3B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -39,9 +28,6 @@
 		B516553D1A1275540022C3B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B51655451A1275540022C3B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B51655481A1275540022C3B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		B516554E1A1275540022C3B8 /* CircularScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircularScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B51655531A1275540022C3B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B51655541A1275540022C3B8 /* CircularScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircularScrollViewTests.m; sourceTree = "<group>"; };
 		B516555E1A127A0E0022C3B8 /* cat3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat3.jpg; sourceTree = "<group>"; };
 		B516555F1A127A0E0022C3B8 /* cat2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat2.jpg; sourceTree = "<group>"; };
 		B51655601A127A0E0022C3B8 /* cat1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat1.jpg; sourceTree = "<group>"; };
@@ -61,13 +47,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B516554B1A1275540022C3B8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -75,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				B51655371A1275540022C3B8 /* CircularScrollView */,
-				B51655511A1275540022C3B8 /* CircularScrollViewTests */,
 				B51655361A1275540022C3B8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,7 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				B51655351A1275540022C3B8 /* CircularScrollView.app */,
-				B516554E1A1275540022C3B8 /* CircularScrollViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,23 +96,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B51655511A1275540022C3B8 /* CircularScrollViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				B51655541A1275540022C3B8 /* CircularScrollViewTests.m */,
-				B51655521A1275540022C3B8 /* Supporting Files */,
-			);
-			path = CircularScrollViewTests;
-			sourceTree = "<group>";
-		};
-		B51655521A1275540022C3B8 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B51655531A1275540022C3B8 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,39 +116,17 @@
 			productReference = B51655351A1275540022C3B8 /* CircularScrollView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B516554D1A1275540022C3B8 /* CircularScrollViewTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B516555B1A1275540022C3B8 /* Build configuration list for PBXNativeTarget "CircularScrollViewTests" */;
-			buildPhases = (
-				B516554A1A1275540022C3B8 /* Sources */,
-				B516554B1A1275540022C3B8 /* Frameworks */,
-				B516554C1A1275540022C3B8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B51655501A1275540022C3B8 /* PBXTargetDependency */,
-			);
-			name = CircularScrollViewTests;
-			productName = CircularScrollViewTests;
-			productReference = B516554E1A1275540022C3B8 /* CircularScrollViewTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		B516552D1A1275540022C3B8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = NSSimpleApps;
 				TargetAttributes = {
 					B51655341A1275540022C3B8 = {
 						CreatedOnToolsVersion = 6.1;
-					};
-					B516554D1A1275540022C3B8 = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = B51655341A1275540022C3B8;
 					};
 				};
 			};
@@ -206,7 +144,6 @@
 			projectRoot = "";
 			targets = (
 				B51655341A1275540022C3B8 /* CircularScrollView */,
-				B516554D1A1275540022C3B8 /* CircularScrollViewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -226,13 +163,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B516554C1A1275540022C3B8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -247,23 +177,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B516554A1A1275540022C3B8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B51655551A1275540022C3B8 /* CircularScrollViewTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		B51655501A1275540022C3B8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B51655341A1275540022C3B8 /* CircularScrollView */;
-			targetProxy = B516554F1A1275540022C3B8 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B51655471A1275540022C3B8 /* LaunchScreen.xib */ = {
@@ -297,6 +211,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -311,7 +226,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -346,7 +261,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -358,7 +273,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CircularScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NSSimpleApps.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -369,43 +286,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CircularScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NSSimpleApps.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		B516555C1A1275540022C3B8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = CircularScrollViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircularScrollView.app/CircularScrollView";
-			};
-			name = Debug;
-		};
-		B516555D1A1275540022C3B8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = CircularScrollViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircularScrollView.app/CircularScrollView";
 			};
 			name = Release;
 		};
@@ -426,15 +311,6 @@
 			buildConfigurations = (
 				B51655591A1275540022C3B8 /* Debug */,
 				B516555A1A1275540022C3B8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B516555B1A1275540022C3B8 /* Build configuration list for PBXNativeTarget "CircularScrollViewTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B516555C1A1275540022C3B8 /* Debug */,
-				B516555D1A1275540022C3B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
