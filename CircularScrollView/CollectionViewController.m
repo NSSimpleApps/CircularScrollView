@@ -66,7 +66,7 @@ static NSString * const reuseIdentifier = @"ImageViewCell";
 
 #pragma mark <UIScrollView>
 
--(void)scrollViewDidScroll:(UIScrollView *)scrollView {
+/*-(void)scrollViewDidScroll:(UIScrollView *)scrollView {
     
     CGFloat currentOffset = scrollView.contentOffset.x;
     
@@ -119,6 +119,6 @@ static NSString * const reuseIdentifier = @"ImageViewCell";
     [self.collectionView scrollToItemAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:section]
                                 atScrollPosition:UICollectionViewScrollPositionNone
                                         animated:YES];
-}
+}*/
 
 @end
